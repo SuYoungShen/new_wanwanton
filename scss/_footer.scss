@@ -1,0 +1,176 @@
+// Styling for the footer
+
+/*====================================================
+                      FOOTER
+======================================================*/
+ 
+  .footer {
+      padding: 50px 0 ;
+      background: #252525;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+
+      .footer-logo {
+        
+        img {
+          max-height: 50px;
+        }
+
+        p {
+          max-width: 300px;
+          margin-top: 10px;
+          color: $gray-500;
+          font-size: 15px;
+
+          @media (max-width:767px) {
+            margin:20px auto;
+          }
+        }
+      }
+      
+      h5 {
+         color: $gray-500; 
+        }
+      ul.footer-menu { 
+        li {
+          margin-top: 5px;
+          a {
+            color:$gray-500;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .footer-email {
+        margin-bottom: 10px;
+        p {
+          color:$gray-500;
+        }
+
+        form {
+          max-width: 300px;
+          margin:0 auto;
+          
+          i{
+            height: 35px;
+            line-height: 31px;
+            font-size:19px; 
+            width: 35px;
+            text-align: center;
+            background: #fff;
+            color:$primary-col;
+            border:3px solid #444;
+            border-radius: 50%;
+          }
+        } 
+
+        @media (min-width:575px) and (max-width:767px) {
+          margin-top: 50px;
+        }
+      }
+
+      .footer-social {
+        width:100%;
+        text-align:center;
+        margin:0 auto;
+         i{
+            height: 35px;
+            line-height: 31px;
+            font-size:19px; 
+            width: 35px;
+            text-align: center;
+            background: #fff;
+            border:3px solid #444;
+            border-radius: 50%;
+
+            &.fa-facebook{
+                color: #4267b2;
+                border-color: #4267b2;
+            }
+
+            &.fa-facebook:hover{
+                color: #fff;
+                background: #4267b2;
+                border-color: #4267b2;
+            }
+
+            &.fa-twitter{
+                color: #1da1f2;
+                border-color: #1da1f2;
+            }
+
+            &.fa-twitter:hover{
+                color: #fff;
+                background: #1da1f2;
+                border-color: #1da1f2;
+            }
+
+            &.fa-google-plus{
+                color: #db4437;
+                border-color:#db4437 ;
+            }
+
+            &.fa-google-plus:hover{
+                color: #fff;
+                background: #db4437;
+                border-color: #db4437;
+            }
+      } 
+
+    }  
+
+    @media (max-width:991px) {
+      .container {
+          max-width: 991px;
+      }
+    }
+
+    @media (max-width:767px){
+      .row {
+        text-align:center;
+      }
+    } 
+  }
+
+  #footer-bottom {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 30px 0;
+
+      #footer-copyrights{
+        p {
+          margin: 0;
+          font-size: 14px;
+          font-weight: normal;
+          color: #bbb;
+          text-align: center;
+
+          a {
+            color:$primary-col;
+            text-decoration: none;
+            
+            &.js-scroll-trigger {
+                border-left: 2px solid #fff;
+                padding-left: 10px;
+                margin-left: 10px;
+            }
+          }
+        } 
+      }
+  }
+
+  .btn-back-to-top {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      color:$primary-col;
+      border:2px solid $primary-col;
+      font-size: 25px;
+      padding: 0px 10px;
+      border-radius: 50%;
+      background: rgba(250, 250, 250, 0.4);
+      display: none;
+  }
+  
+ 

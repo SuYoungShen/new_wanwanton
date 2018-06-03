@@ -1,0 +1,100 @@
+// Styling for the team section 
+
+/*====================================================
+                      TEAM
+======================================================*/
+
+.team {
+
+    .our-team-member {
+        text-align: center;
+
+        .team-img {
+            overflow: hidden;
+            position: relative;
+        
+            img {
+              width: 100%;
+              height: auto;
+            }
+
+            .social {
+                width: 100%;
+                height: 30%;
+                background: rgba(254, 209, 54, 0.71);
+                position: absolute;
+                top: 50%;
+                left: 0;
+                opacity: 0;
+                transform: translateY(-50%) rotate(-30deg);
+                transition: all 0.3s ease 0s;
+
+                ul {
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    text-align: center;
+                    position: absolute;
+                    top: 45%;
+                    left: 0;
+
+                    li {
+                        display: inline-block;
+
+                        a {
+                            display: block;
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            border-radius: 50%;
+                            font-size: 22px;
+                            color: $white;
+                            margin-left: 10px;
+                            background: transparent;
+                            transition: all 0.3s ease 0s;
+
+                            &:hover {
+                                background: $white;
+                                color: $primary-col;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        &:hover .social {
+            height: 100%;
+            opacity: 1;
+            transform: translateY(-50%) rotate(0deg);
+        }  
+ 
+        .team-content {
+            padding: 20px 0;
+            background: $gray-100;
+            color: $primary-col;
+
+            .title {
+                display: block;
+                font-size: 20px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin: 0 0 7px 0;
+            }
+
+            .post {
+                display: block;
+                font-size: 15px;
+                color: $gray-500;
+            }
+        } 
+
+        @media only screen and (max-width: 990px) {
+            margin-bottom: 30px;
+        }
+
+  }
+}
