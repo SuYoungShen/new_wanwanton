@@ -1156,16 +1156,16 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 s0.parentNode.insertBefore(s1,s0);
                 })();
 
-                // swal({
-                //   // title: '<i>HTML</i> <u>example</u>',
-                //   // type: 'info',
-                //   html:
-                //   '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="http://sushen.esy.es/wanwanton/video.mp4" type="video/mp4"></video></div>',
-                //   showCloseButton: false,
-                //   showCancelButton: false,
-                //   showConfirmButton: false,
-                //   focusConfirm: false,
-                // });
+                swal({
+                  // title: '<i>HTML</i> <u>example</u>',
+                  // type: 'info',
+                  html:
+                  '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video.mp4" type="video/mp4"></video></div>',
+                  showCloseButton: false,
+                  showCancelButton: false,
+                  showConfirmButton: false,
+                  focusConfirm: false,
+                });
 
         </script>
         <!-- <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
