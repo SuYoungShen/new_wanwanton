@@ -404,9 +404,6 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                           <li class="nav-item">
                                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
                                           </li>
-                                          <li class="nav-item">
-                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                                          </li>
                                         </ul>
                                         <div class="tab-content tabs" id="myTabContent">
                                           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -422,7 +419,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                             </table>
                                           </div>
                                           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">456</div>
-                                          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">789</div>
+
                                         </div>
                                       </div>
                                     </div>
@@ -992,29 +989,29 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 </div>
                 <div class="row">
                   <div class="col-lg-12">
-                    <form id="contactForm" name="sentMessage" novalidate>
+                    <form id="contactForm" name="sentMessage"  novalidate>
                       <div class="row">
                         <div class="col-md-4">
                           <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="名字 *" required data-validation-required-message="請輸入您的名字.">
+                            <input class="form-control" id="name" type="text" placeholder="請輸入姓名 *" required data-validation-required-message="請輸入您的名字.">
                             <p class="help-block text-danger"></p>
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="聯絡信箱 *" required data-validation-required-message="請輸入您的信箱.">
+                            <input class="form-control" id="email" type="email" placeholder="請輸入聯絡信箱 *" required data-validation-required-message="請輸入您的信箱.">
                             <p class="help-block text-danger"></p>
                           </div>
                         </div>
                         <div class="col-md-4">
                           <div class="form-group">
-                            <input class="form-control" id="phone" type="tel" placeholder="連絡電話">
+                            <input class="form-control" id="phone" type="tel" placeholder="請輸入連絡電話">
                             <p class="help-block text-danger"></p>
                           </div>
                         </div>
                         <div class="col-md-12">
                           <div class="form-group">
-                            <textarea class="form-control" id="message" placeholder="有任何問題請留言 *" required data-validation-required-message="請輸入您的問題."></textarea>
+                            <textarea class="form-control" id="message" placeholder="有任何問題歡迎來信 *" required data-validation-required-message="請輸入您的問題."></textarea>
                             <p class="help-block text-danger"></p>
                           </div>
                         </div>
@@ -1031,9 +1028,6 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             </section>
 
             <style media="screen">
-              li{
-                color: white;
-              }
               .footer .footer-logo img{
                 max-height: 10em;
               }
@@ -1048,13 +1042,6 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="col-md-3 col-sm-5 col-lg-12 text-center text-white">
 
                         <h5>主選單</h5>
-                        <!-- <ul class="list-unstyled footer-menu">
-                          <li><a href="#contact" class="js-scroll-trigger">Contact Us</a><i class="fa fa-angle-right"></i></li>
-                          <li><a href="#about" class="js-scroll-trigger">About Us</a><i class="fa fa-angle-right"></i></li>
-                          <li><a href="#services" class="js-scroll-trigger">Services</a><i class="fa fa-angle-right"></i></li>
-                          <li><a href="#news" class="js-scroll-trigger">News</a><i class="fa fa-angle-right"></i></li>
-                        </ul> -->
-
                           <a href="#page-top" class="js-scroll-trigger text-white">首頁</a><i class="fa fa-angle-right"></i>
                           <a href="#about" class="js-scroll-trigger text-white">關於旺旺通</a><i class="fa fa-angle-right"></i>
                           <a href="#services" class="js-scroll-trigger text-white">服務項目</a><i class="fa fa-angle-right"></i>
@@ -1071,12 +1058,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     </div>
                     <div class="col-md-4 col-sm-12 text-center">
                       <div class="footer-email">
-
-
                       </div>
                       <ul class="footer-social mt-4">
-
-
                       </ul>
                     </div>
                   </div>
@@ -1112,7 +1095,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/jqBootstrapValidation.min.js"></script>
-        <script src="js/contact_me.min.js"></script>
+        <script src="js/contact_me.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/app.js"></script>
 
