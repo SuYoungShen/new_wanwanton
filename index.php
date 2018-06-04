@@ -57,7 +57,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     }
     .tab .nav-tabs{
         border: none;
-        border-bottom: 2px solid #079fc9;
+        border-bottom: 2px solid #fed136;
         margin: 0;
     }
     .tab .nav-tabs li a{
@@ -77,8 +77,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     .tab .nav-tabs li a:hover,
     .tab .nav-tabs li.active a{
         background: #fff;
-        color: #079fc9;
-        border: 2px solid #079fc9;
+        color: #fed136;
+        border: 2px solid #fed136;
         border-bottom-color: transparent;
     }
     .tab .nav-tabs li a:before{
@@ -190,6 +190,9 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                       <a class="nav-link js-scroll-trigger" href="#about">關於旺旺通</a>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#news">相關新資訊</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link js-scroll-trigger" href="#services">服務項目</a>
                     </li>
                     <li class="nav-item">
@@ -201,9 +204,6 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <li class="nav-item">
                       <a class="nav-link js-scroll-trigger" href="#team">四大主流專區</a>
                     </li>
-                    <!-- <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#news">News</a>
-                    </li> -->
                     <li class="nav-item">
                       <a class="nav-link js-scroll-trigger" href="#contact">聯絡我們</a>
                     </li>
@@ -384,24 +384,22 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <div class="row mb-5">
                           <div class="col-md-12 text-center">
                             <div class="heading wow fadeInUp" data-wow-delay="0.3s">
-                              <h1>Latest News</h1>
+                              <!-- <h1>Latest News</h1> -->
                               <div class="bord-bot"></div>
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-lg-12">
-
-
-                      <div class="htmleaf-container">
-                        <div class="demo">
-                            <div class="container">
-                                <div class="row">
+                            <div class="htmleaf-container">
+                              <div class="demo">
+                                <div class="container">
+                                  <div class="row">
                                     <div class="col-md-offset-3 col-md-12">
                                       <div class="tab" role="tabpanel">
                                         <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                          <li class="nav-item">
-                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                                          <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" ata-toggle="tab" aria-selected="true">最新消息</a>
                                           </li>
                                           <li class="nav-item">
                                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
@@ -410,104 +408,29 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
                                           </li>
                                         </ul>
-                                        <div class="tab-content" id="myTabContent">
-                                          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                                          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                        <div class="tab-content tabs" id="myTabContent">
+                                          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <table class='table '>
+                                              <tbody>
+                                                <tr class="bg-warning">
+                                                  <td><a href="#">a</a></td>
+                                                </tr>
+                                                <tr class="bg-danger">
+                                                  <td><a href="#">b</a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">456</div>
+                                          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">789</div>
                                         </div>
-                                        </div>
-
-
-                                        <!-- <div class="tab" role="tabpanel"> -->
-                                            <!-- <ul class="nav nav-tabs" role="tablist">
-                                                <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Section 1</a></li>
-                                                <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Section 2</a></li>
-                                                <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Section 3</a></li>
-                                            </ul>
-                                            <div class="tab-content tabs">
-                                                <div role="tabpanel" class="tab-pane fade in active" id="Section1">
-                                                    <h3>Section 1</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
-                                                </div>
-                                                <div role="tabpanel" class="tab-pane fade" id="Section2">
-                                                    <h3>Section 2</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
-                                                </div>
-                                                <div role="tabpanel" class="tab-pane fade" id="Section3">
-                                                    <h3>Section 3</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
-                                                </div>
-                                            </div> -->
-                                        <!-- </div> -->
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
-                        </div>
-
-
-
-
-                      </div>
-                            <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-                              <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                              </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
-                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-                            </div> -->
-                          </div>
-                          <!-- <div class="col-md-3 col-sm-6 desc-comp-news">
-                            <div class="desc-comp-news-cont wow fadeInUp" data-wow-delay="0.6s">
-                              <div class="thumbnail-blogs">
-                                <img src="img/news/news-1.jpg" class="img-fluid" alt="...">
                               </div>
-                              <h3>Bitcoin is Bright Future in the World of Money</h3>
-                              <p class="desc">The Bitcoin cryptocurrency has changed the way we conduct online transactions...</p>
-                              <a href="news-description.html"> Learn More <i class="fa fa-long-arrow-right"></i></a>
                             </div>
                           </div>
-                          <div class="col-md-3 col-sm-6 desc-comp-news">
-                            <div class="desc-comp-news-cont wow fadeInUp" data-wow-delay="0.9s">
-                              <div class="thumbnail-blogs">
-                                <img src="img/news/news-2.jpg" class="img-fluid" alt="...">
-                              </div>
-                              <h3>Trezor is another storage tool for Bitcoins</h3>
-                              <p class="desc">Itvis considered as one of the best hardware wallet solutions available...</p>
-                              <a href="news-description.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6 desc-comp-news">
-                            <div class="desc-comp-news-cont wow fadeInUp" data-wow-delay="1.2s">
-                              <div class="thumbnail-blogs">
-                                <img src="img/news/news-3.jpg" class="img-fluid" alt="...">
-                              </div>
-                              <h3>Founded on USB interface Bitcoin</h3>
-                              <p class="desc">It is designed in a unique way making it more reliable. When you start... </p>
-                              <a href="news-description.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6 desc-comp-news">
-                            <div class="desc-comp-news-cont wow fadeInUp" data-wow-delay="1.5s">
-                              <div class="thumbnail-blogs">
-                                <img src="img/news/news-4.jpg" class="img-fluid" alt="...">
-                              </div>
-                              <h3>OpenDime is commonly known as a ‘Bitcoin</h3>
-                              <p class="desc">Stick that allows you to spend Bitcoin in a way that regular dollar...</p>
-                              <a href="news-description.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mx-auto text-center mt-4">
-                            <a href="news.html"><button class="btn btn-general btn-yellow">View More</button></a>
-                          </div> -->
                         </div>
                       </div>
                     </section>
@@ -606,7 +529,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                 </div>
                                 <div class="service-content" onclick="fire();">
                                     <h3>火幣</h3>
-                                    <img src="file/four/火幣/文宣-04.jpg" alt="" class="img-fluid">
+                                    <img src="file/four/火幣/文宣-04.jpg" title='點擊此圖會顯示QR Code，掃描後可連結至註冊網站' class="img-fluid">
                                     <!-- <p>
                                         No matter which currency you try to store, it has that inflation impact on it. Inflation is a result of many micro and macroeconomic factors affecting a country. There are around 21 million bitcoins in the market. The demand for Bitcoins remains high despite
                                     </p> -->
@@ -621,7 +544,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                 <a href="https://www.wanwanton.com/ct/mbst/product_list.php" target="_blank">
                                 <div class="service-content">
                                     <h3>入會條件&好禮</h3>
-                                    <img src="file/入會禮-01.jpg" alt="" class="img-fluid">
+                                    <img src="file/入會禮-01.jpg" title="點擊可連至旺旺通購物網" class="img-fluid">
 
                                 </div>
                                 </a>
@@ -717,8 +640,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                       <div class="card-body">
                                         <a href="file/member/process.pdf" target="_blank">會員入會申請流程</a> |
-                                        <a href="file/member/application.pdf" target="_blank">會員入會申請書</a>|
-                                        <a href="file/member/application-1.pdf" target="_blank">會員入會申請書(反)</a>
+                                        <a href="file/member/application-2.pdf" target="_blank">會員入會申請書</a> |
+                                        <a href="https://docs.google.com/forms/d/1Pe-VLXmww_2tYjkd7mV0dY14_0TA-lGB9yWOcY5dmUQ/viewform?edit_requested=true" target="_blank">旺旺通名片訂製</a>
                                         <!-- The dollar is legal tender and by law can be used to extinguish public or private debts. A creditor is required to accept legal tender for the settlement of a debt. At a minimum, the payment of taxes forces U.S. individuals to hold dollars. Arguably, for many, such a government endorsement is comforting and creates a strong underlying demand for the dollar. By contrast, a currency like Bitcoin that is linked to a complex computer program that many do not understand and that operates without accountability to any controlling entity could be an unattractive vehicle for holding wealth for many people. -->
                                       </div>
                                     </div>
