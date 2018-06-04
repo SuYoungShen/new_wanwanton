@@ -1,0 +1,146 @@
+// Styling for the about section
+
+/*====================================================
+                  		ABOUT
+======================================================*/
+
+.about {
+	.about-img {
+		img {
+			border:10px solid $gray-600;
+			box-shadow: 2px 2px 9px 1px rgba(0, 0, 0, 0.46);
+		}
+	}
+
+	.about-cont {
+		h3 {
+			color: $gray-600;
+		}
+
+		.bord {
+			width: 50px;
+			border-bottom:5px solid $primary-col;
+			margin-bottom: 15px;
+		} 
+
+		p {
+			@include text-font;
+			color: $gray-600;
+		}
+
+		@media (max-width:991px) {
+			
+			h3 {
+				font-size:20px;
+			}			
+
+			p {
+			 	font-size:14px;
+			}
+		}
+	}
+
+	.about-box-sec {
+		margin-top: 50px;
+
+		.about-box{
+		    border: 1px solid $gray-400;
+		    padding: 30px 30px 30px 90px;
+		    position: relative;
+		    transition: all 0.5s ease 0s;
+			
+			&:hover{
+			    border-color: $primary-col;
+			}
+			
+			&:before,
+			&:after{
+			    content: "";
+			    display: block;
+			    width: 50px;
+			    height: 5px;
+			    background: $primary-col;
+			    position: absolute;
+			    left: 0;
+			    opacity: 0;
+			    transition: all 0.5s ease 0s;
+			}
+			
+			&:before{
+			    top: -3px;
+			}
+			
+			&:after{
+			    bottom: -3px;
+			}
+			
+			&:hover:before,
+			&:hover:after{
+			    left: 40px;
+			    opacity: 1;
+			}
+			
+			.about-icon{
+			    display: inline-block;
+			    position: absolute;
+			    top: 33%;
+			    left: 23px;
+			    height: 50px;
+			    line-height: 80px;
+			    width: 50px;
+			    color: $primary-col;
+			    opacity: 0.3;
+			    transition: all -0.5s ease-in 0s;
+			}
+			  
+			.title{
+			    font-size: 16px;
+			    font-weight: 700;
+			    color: $primary-col;
+			    margin-bottom: 15px;
+			}
+			
+			.description{
+			    font-size: 14px;
+			    color: $gray-500;
+			    line-height: 20px;
+			    transition: all 0.5s ease-in 0s;
+			}
+
+			&:hover {
+				.about-icon{
+				    opacity: 1;
+				}
+
+				.description{
+				    color: $gray-600;
+				}
+			}
+			
+			@media only screen and (max-width: 990px){
+			  margin-bottom: 30px; 
+			}
+
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) { 
+		  	.col-md-4{
+		        -ms-flex: 0 0 50%;
+		        flex: 0 0 50%;
+		        max-width: 50%!important;
+
+				.about-box{
+					margin-top: 0px;
+				}
+		    } 
+		}
+	}
+
+	@media (max-width:991px) {
+		.container {
+			max-width:991px;
+		}
+	}
+
+}
+

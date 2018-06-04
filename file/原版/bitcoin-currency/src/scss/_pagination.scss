@@ -1,0 +1,47 @@
+// Styling for the pagination
+
+/*====================================================
+                      	PAGINATION
+======================================================*/
+
+.paginations {
+	nav {
+		ul {
+			li{
+				a {
+					color: $primary-col;
+				}
+
+				&.arrow {
+					a {
+						background: $primary-col;
+						color: $white;
+					}
+				}
+
+				&.page-item.disabled {
+					a.page-link {
+						background: $primary-col;
+						color: $white;
+					}
+				}
+
+				&.page-item.active {
+					a.page-link {
+						background: $gray-200;
+						border-color: $gray-200;
+						color: $white;
+					}
+				}
+			}
+
+			@media (max-width: 767px) {
+				&.pagination-lg .page-link {
+				    padding: 0.55rem 0.9rem; 
+				    font-size: 1.05rem; 
+				    line-height: 1.5;
+				}
+			}
+		}
+	}
+}

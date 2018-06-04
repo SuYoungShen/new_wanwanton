@@ -1,0 +1,16 @@
+// Styling for the devider section
+
+/*====================================================
+                      DEVIDER
+======================================================*/
+
+.devider {
+	background-image: url('../img/bg-devider.jpg');
+	height: 350px;
+	background-position:center;
+	@include background-cover;
+
+	@media (max-width: 991px) {
+		display: none;
+	}
+}

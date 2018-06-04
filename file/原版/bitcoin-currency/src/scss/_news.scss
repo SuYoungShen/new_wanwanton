@@ -1,0 +1,144 @@
+// Styling for the news section
+
+/*====================================================
+                        NEWS
+======================================================*/
+
+.news {
+
+	.desc-comp-news {
+		margin-top: 20px;
+ 
+		.desc-comp-news-cont {
+		    margin-bottom: 10px;
+		    padding-bottom: 10px;
+		    box-shadow: 3px 3px 10px 1px rgba(158, 158, 158, 0.68);
+		    -webkit-transition: all .5s ease-in-out;
+		    transition: all .5s ease-in-out;
+			
+			h3, p {
+				color: $gray-600;
+			} 
+
+		    a, a:hover {
+		    	color:$primary-col;
+		    	text-decoration: none;
+		    }
+
+		    &:hover {
+			    margin-bottom: 10px;
+			    border-bottom: 5px solid $primary-col;
+			    margin-top: -5px;
+			    cursor: pointer;
+			}
+
+			@media (min-width: 1600px) {
+			    p {
+			        padding: 0 10px;
+			        font-size: 16px;
+			    }
+			}
+		} 
+
+		.thumbnail-blogs {
+		    position: relative;
+		    overflow: hidden;
+
+		    img {
+		    	border-bottom:13px solid $primary-col;
+		    }
+		}
+
+		.desc-comp-news-cont h3 {
+		    padding: 30px 10px 0 10px;
+		    font-size: 18px;
+		    text-transform: none;
+		}
+
+		.desc-comp-news-cont p {
+		    padding: 0 10px;
+		    font-size: 15px;
+		}
+
+		.desc-comp-news-cont a {
+		    padding: 0px 10px;
+		}
+
+		@media (max-width: 767px) {
+	        margin-top: 20px;
+		}
+
+		@media (max-width: 575px) {
+	        margin: 20px auto;
+		}
+	}
+	
+	.news-full-desc {
+
+		.desc-comp-news-cont.news-desc {
+			margin-bottom: 10px;
+			border-bottom: 5px solid #fed136; 
+			margin-top: -5px; 
+			cursor: pointer; 
+			cursor: inherit;
+
+			.thumbnail-blogs {
+				img {
+					max-height: 400px; 
+					width:100%;
+				}
+			}
+		}
+
+		@media (min-width:575px) and (max-width:991px) {
+			.col-md-8 {
+			    flex: 0 0 100%;
+			    max-width: 100%;
+			}
+
+			.offset-md-1 {
+				margin-left: 0%;
+			}
+
+			.col-md-3 {
+			    -ms-flex: 0 0 100%;
+			    flex: 0 0 100%;
+			    max-width: 100% !important;
+
+			    .row {
+			    	.col-md-12 {
+			    		-ms-flex: 0 0 50%;
+					    flex: 0 0 50%;
+					    max-width: 50% !important;
+			    	}
+			    }
+			}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) { 
+	  	.col-md-3{
+	        -ms-flex: 0 0 50%;
+	        flex: 0 0 50%;
+	        max-width: 50%!important;
+	    } 
+	}
+ 
+
+	@media (max-width: 575px) {
+	    .col-sm-6 {
+	        -ms-flex: 0 0 70%;
+	        flex: 0 0 70%;
+	        max-width: 70%!important;
+	    }
+	}
+
+	@media (max-width: 420px) {
+	    .col-sm-6 {
+	        -ms-flex: 0 0 95%;
+	        flex: 0 0 95%;
+	        max-width: 95%!important;
+	    }
+	}
+ 
+}
