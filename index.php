@@ -541,7 +541,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                 <a href="https://www.wanwanton.com/ct/mbst/product_list.php" target="_blank">
                                 <div class="service-content">
                                     <h3>入會條件&好禮</h3>
-                                    <img src="file/入會禮-01.jpg" title="點擊可連至旺旺通購物網" class="img-fluid">
+                                    <img src="file/member/入會禮-01.jpg" title="點擊可連至旺旺通購物網" class="img-fluid">
 
                                 </div>
                                 </a>
