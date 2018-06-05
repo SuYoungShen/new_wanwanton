@@ -551,7 +551,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                 <a href="https://www.wanwanton.com/ct/mbst/product_list.php" target="_blank">
                                 <div class="service-content">
                                     <h3>入會條件&好禮</h3>
-                                    <img src="file/member/入會禮-01.jpg" title="點擊可連至旺旺通購物網" class="img-fluid">
+                                    <img src="file/member/01.jpg" title="點擊可連至旺旺通購物網" class="img-fluid">
 
                                 </div>
                                 </a>
@@ -796,7 +796,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                   <div id="fire" class="collapse" aria-labelledby="headingFire" data-parent="#accordion">
                                     <div class="card-body">
                                       <a href="file/four/火幣/火幣操作手冊A4.pdf" target="_blank">火幣操作手冊</a> |
-                                      <a href="file/four/火幣/免費註冊區塊鍊火幣.pdf" target="_blank">免費註冊區塊鍊火幣</a>
+                                      <a href="file/four/火幣/免費註冊區塊鍊火幣.pdf" target="_blank">免費註冊區塊鍊火幣</a> |
+                                      <a href="javascript:void(0);" onclick="Sw_Application();">火幣註冊申請表</a>
                                       <!-- The dollar is legal tender and by law can be used to extinguish public or private debts. A creditor is required to accept legal tender for the settlement of a debt. At a minimum, the payment of taxes forces U.S. individuals to hold dollars. Arguably, for many, such a government endorsement is comforting and creates a strong underlying demand for the dollar. By contrast, a currency like Bitcoin that is linked to a complex computer program that many do not understand and that operates without accountability to any controlling entity could be an unattractive vehicle for holding wealth for many people. -->
                                     </div>
                                   </div>
@@ -1082,7 +1083,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     </div>
 
                     <div id="footer-copyrights" class="col-lg-12 text-right">
-                        <p>Copyright &copy; 2018 Wanwanton International Co.,Ltd. . All Rights Reserved. | <a href="https://boostraptheme.com/">旺旺通國際有限公司版權所有</a></p>
+                        <p>Copyright &copy; 2018 Wanwanton International Co.,Ltd. . All Rights Reserved. | 旺旺通國際有限公司版權所有</p>
                     </div>
 
                   </div>
@@ -1149,7 +1150,25 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 cancelButtonText:
                 '<i class="fa fa-thumbs-down"></i>',
                 cancelButtonAriaLabel: 'Thumbs down',
-                })
+              });
+              }
+
+              // 火幣註冊申請表
+              function Sw_Application(){
+                var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/火幣註冊Google_QR.png' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
+                swal({
+                  html: card,
+                  showCloseButton: false,
+                  showCancelButton: false,
+                  showConfirmButton: false,
+                  focusConfirm: false,
+                  confirmButtonText:
+                  '<i class="fa fa-thumbs-up"></i> Great!',
+                  confirmButtonAriaLabel: 'Thumbs up, great!',
+                  cancelButtonText:
+                  '<i class="fa fa-thumbs-down"></i>',
+                  cancelButtonAriaLabel: 'Thumbs down',
+                });
               }
 
               // 聊天室
@@ -1157,7 +1176,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               (function(){
                 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
                 s1.async=true;
-                s1.src='https://embed.tawk.to/5b15fc0c10b99c7b36d4a032/default';
+                s1.src='https://embed.tawk.to/5b16178510b99c7b36d4a0cb/default';
                 s1.charset='UTF-8';
                 s1.setAttribute('crossorigin','*');
                 s0.parentNode.insertBefore(s1,s0);
