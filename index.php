@@ -1,4 +1,4 @@
-<!--
+huobi.png<!--
 author: Boostraptheme
 author URL: https://boostraptheme.com
 License: Creative Commons Attribution 4.0 Unported
@@ -273,7 +273,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="0.9s">
                                 <div class="about-icon">
-                                    <img src="img/coin/coin-b.png" alt="" class="img-fluid">
+                                    <img src="img/coin/huobi.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="about-Content">
                                     <h3 class="title">公司未來發展</h3>
@@ -287,7 +287,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="1.2s">
                                 <div class="about-icon">
-                                    <img src="img/coin/coin-m.png" alt="" class="img-fluid">
+                                    <img src="img/coin/huobi.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="about-Content">
                                     <h3 class="title">公司背景</h3>
@@ -301,7 +301,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="1.5s">
                                 <div class="about-icon">
-                                    <img src="img/coin/coin-z.png" alt="" class="img-fluid">
+                                    <img src="img/coin/huobi.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="about-Content">
                                     <h3 class="title">經營旺旺通優勢是什麼？</h3>
@@ -565,8 +565,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                 <a href="file/four/Q&A外部人員.pdf" target="_blank">
                                   <div class="service-content">
                                     <h3>Q & A</h3>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUoiOmvLaWGbKddQ8KlaFsb9PiPiXmh1GlrrMUsHjhkwmiuIXTcA" class="img-fluid" title="點擊此處可連至Q&A文件!" alt=""><br/>
-                                    Q & A 文件
+                                    <img src="img/QA.jpg" class="img-fluid" title="點擊此處可連至Q&A文件!" alt="">
                                   </div>
                                 </a>
                             </div>
@@ -1059,7 +1058,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                           <a href="#contact" class="js-scroll-trigger text-white">聯絡我們</a><i class="fa fa-angle-right"></i>
 
                       <ul class="list-unstyled footer-menu">
-                        
+
                       </ul>
                     </div>
                     <div class="col-md-4 col-sm-12 text-center">
@@ -1079,6 +1078,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                       | <i class="fa fa-map-marker fa-2x"></i>：<a href="https://www.google.com.tw/maps/place/801%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%BA%94%E7%A6%8F%E4%B8%89%E8%B7%AF61%E8%99%9F%E6%A8%93%E4%B9%8B%E4%B8%80/@22.6215786,120.2948242,17z/data=!3m1!4b1!4m5!3m4!1s0x346e047e04ae2a35:0xeb0469001f5e66ec!8m2!3d22.6215737!4d120.2970129?hl=zh-TW" class="js-scroll-trigger" target="_blank">高雄市前金區五福三路61號14樓之一</a> |
                       <i class="fa fa-envelope-o fa-2x"></i>：wanwanton958@gmail.com |
                       <i class="fa fa-phone fa-2x"></i>：07-958-0017 |
+                      <i class="fa fa-fax fa-2x"></i>：07-958-0917 |
                     </div>
 
                     <div id="footer-copyrights" class="col-lg-12 text-right">
