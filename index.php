@@ -130,6 +130,10 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         }
         /* 如果使用者視窗寬度 <= 768px */
         /* Logo */
+        #mainNav{
+          background: rgba(0, 0, 0, 0.0);
+        }
+
         @media screen and (max-width: 768px) {
           img.header_logo {
             display: none;
@@ -161,10 +165,37 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         }
         /* Logo */
 
-        #mainNav{
-          background: rgba(0, 0, 0, 0.0);
-        }
       </style>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          // $('#menu_btn').click(function(event) {
+          //   // var how = $(this).attr('aria-expanded');
+          //   // $(this).show();
+          //   // if (how != false) {
+          //     // $('#mainNav').css('background', 'rgba(0, 0, 0, 0.5)');
+          //     // $('#smallscreen').css('display', 'block');
+          //   // }else{
+          //     // $('#mainNav').css('background', 'rgba(0, 0, 0, 0.0)');
+          //     // $('img.smallscreen').css('display', 'none');
+          //   // }
+          //
+          //   // alert('a');
+          //   $(this).toggle(function() {
+          //
+          //     $('#smallscreen').css('display','block');
+          //   }, function() {
+          //     /* Stuff to do every *even* time the element is clicked */
+          //     $('#smallscreen').css('display','none');
+          //   });
+          //
+          // });
+          // $("#menu_btn").toggle(
+          //   function(){$('#smallscreen').css('display','block');},
+          //   function(){$('#smallscreen').css('display','none');});
+
+        });
+      </script>
+
     <body id="page-top">
 
         <!-- <div class="loader"></div> -->
@@ -174,9 +205,9 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               <div class="container-fluid">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
                   <!-- <img src="img/logo1.png" style="max-height: 60px;" alt="" class="img-fluid"> -->
-                  <img src="img/logo3.png" style="max-height: 65px;" alt="" class="header_logo img-fluid"><img class="smallscreen img-fluid" src="img/head_footer.png" alt="" />
+                  <img src="img/logo3.png" style="max-height: 65px;" alt="" class="header_logo img-fluid"><img class="smallscreen img-fluid" id="smallscreen" src="img/head_footer.png" alt="" />
                 </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button id='menu_btn' class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                   選單
                   <i class="fa fa-bars"></i>
                 </button>
@@ -407,19 +438,19 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                         </ul>
                                         <div class="tab-content tabs" id="myTabContent">
                                           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                            <table class='table '>
+                                            <table class='table'>
                                               <tbody>
-                                                <tr class="bg-warning">
+                                                <tr>
                                                   <td><a href="#">最新消息一</a></td>
                                                 </tr>
-                                                <tr class="bg-danger">
+                                                <tr>
                                                   <td><a href="#">最新消息二</a></td>
                                                 </tr>
                                               </tbody>
                                             </table>
                                           </div>
                                           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                            <table class='table '>
+                                            <table class='table'>
                                               <tbody>
                                                 <tr>
                                                   <td><a href="#">投資相關訊息一</a></td>
@@ -575,7 +606,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             </section>
           <style>
           #faq{
-            background: #fef7ea;
+            background: white;
           }
           .fa-usd{
             position: absolute;
@@ -601,7 +632,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                       </div>
                   </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-12 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-md-6 col-sm-12 col-lg-6 wow fadeInUp" data-wow-delay="0.6s" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <div class="faq-cont">
                                 <div id="accordion">
                                   <div class="card">
@@ -629,7 +660,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-sm-12 col-lg-6  wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-md-6 col-sm-12 col-lg-6  wow fadeInUp" data-wow-delay="0.6s" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <div class="faq-cont">
                                 <div id="accordion">
                                   <div class="card">
@@ -662,6 +693,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               background: #e9ecef;
             }
           </style>
+          <section id="deviders" class="deviders wow fadeIn" data-wow-delay="0.3s"></section>
 
         <!-- TEAM ITEM
             =================-->
@@ -676,7 +708,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s">
+                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s" data-toggle="collapse" data-target="#Master" aria-expanded="false" aria-controls="Master">
                           <div class="faq-cont">
                               <div id="accordion">
                                 <div class="card">
@@ -703,7 +735,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s">
+                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s" data-toggle="collapse" data-target="#pos" aria-expanded="false" aria-controls="pos">
                           <div class="faq-cont">
                               <div id="accordion">
                                 <div class="card">
@@ -728,7 +760,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s">
+                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s" data-toggle="collapse" data-target="#financial" aria-expanded="false" aria-controls="financial">
                           <div class="faq-cont">
                               <div id="accordion">
                                 <div class="card">
@@ -780,7 +812,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s">
+                      <div class="col-md-6 col-sm-12 col-lg-6 FourBig wow fadeInUp" data-wow-delay="0.6s" data-toggle="collapse" data-target="#fire" aria-expanded="false" aria-controls="fire">
                           <div class="faq-cont">
                               <div id="accordion">
                                 <div class="card">
@@ -1050,13 +1082,13 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="col-md-3 col-sm-5 col-lg-12 text-center text-white">
 
                         <h5>主選單</h5>
-                          <a href="#page-top" class="js-scroll-trigger text-white">首頁</a><i class="fa fa-angle-right"></i>
+                        <p style='font-size:15px;'><a href="#page-top" class="js-scroll-trigger text-white">首頁</a><i class="fa fa-angle-right"></i>
                           <a href="#about" class="js-scroll-trigger text-white">關於旺旺通</a><i class="fa fa-angle-right"></i>
                           <a href="#news" class="js-scroll-trigger text-white">相關新資訊</a><i class="fa fa-angle-right"></i>
                           <a href="#services" class="js-scroll-trigger text-white">服務項目</a><i class="fa fa-angle-right"></i>
                           <a href="#faq" class="js-scroll-trigger text-white">會員專區</a><i class="fa fa-angle-right"></i>
                           <a href="#team" class="js-scroll-trigger text-white">四大主流專區</a><i class="fa fa-angle-right"></i>
-                          <a href="#contact" class="js-scroll-trigger text-white">聯絡我們</a><i class="fa fa-angle-right"></i>
+                          <a href="#contact" class="js-scroll-trigger text-white">聯絡我們</a><i class="fa fa-angle-right"></i></p>
 
                       <ul class="list-unstyled footer-menu">
 
@@ -1075,7 +1107,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               <div id="footer-bottom">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-12 text-white text-center">
+                    <div class="col-lg-12 text-white text-center" style="font-size:14px;">
                       | <i class="fa fa-map-marker fa-2x"></i>：<a href="https://www.google.com.tw/maps/place/801%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%BA%94%E7%A6%8F%E4%B8%89%E8%B7%AF61%E8%99%9F%E6%A8%93%E4%B9%8B%E4%B8%80/@22.6215786,120.2948242,17z/data=!3m1!4b1!4m5!3m4!1s0x346e047e04ae2a35:0xeb0469001f5e66ec!8m2!3d22.6215737!4d120.2970129?hl=zh-TW" class="js-scroll-trigger" target="_blank">高雄市前金區五福三路61號14樓之一</a> |
                       <i class="fa fa-envelope-o fa-2x"></i>：wanwanton958@gmail.com |
                       <i class="fa fa-phone fa-2x"></i>：07-958-0017 |
@@ -1155,7 +1187,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
               // 火幣註冊申請表
               function Sw_Application(){
-                var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/火幣註冊Google_QR.png' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
+                var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/火幣註冊Google_QR.jpg' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><h2 style='color:white;'>火幣註冊申請表</h2><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
                 swal({
                   html: card,
                   showCloseButton: false,

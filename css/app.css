@@ -6353,12 +6353,30 @@ header.masthead-news {
     max-width: 991px; } }
 
 /*====================================================
-                      DEVIDER
+                      背景圖1
 ======================================================*/
 .devider {
   background-image: url("../img/hand-3044387_1280.jpg");
   background-color: #fef7ea;
-  height: 350px;
+  height: 470px;/* 高度更改成此格式 in 20180605 */
+  /* height: 350px; */
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (max-width: 991px) {
+    .devider {
+      display: none; } }
+
+/*====================================================
+                      背景圖1
+======================================================*/
+.deviders {
+  background-image: url("../img/330604-1P12401002711.jpg");
+  background-color: #fef7ea;
+  height: 470px;/* 高度更改成此格式 in 20180605 */
+  /* height: 350px; */
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6455,7 +6473,8 @@ header.masthead-news {
     .faq .card .card-header {
       background: #fed136; }
       .faq .card .card-header h5 button {
-        color: #fff;
+        color: #007bff;/* 更改此顏色 in 20180605 */
+        /* color: #fff; */
         text-decoration: none; }
         .faq .card .card-header h5 button i.fa-btc {
           position: absolute;
@@ -6550,7 +6569,8 @@ header.masthead-news {
           .FourBig .card .card-header {
             background: #fed136; }
             .FourBig .card .card-header h5 button {
-              color: #fff;
+              color: #007bff;/* 更改成此顏色 in 20180605 */
+              /* color: #fff; */
               text-decoration: none; }
               .FourBig .card .card-header h5 button i.fa-btc {
                 position: absolute;
