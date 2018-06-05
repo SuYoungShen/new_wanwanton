@@ -159,42 +159,13 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             display: none;
           }
           img.smallscreen {
-            display: block;
+            display: none;
             max-height: 50px;
           }
         }
         /* Logo */
 
       </style>
-      <script type="text/javascript">
-        $(document).ready(function() {
-          // $('#menu_btn').click(function(event) {
-          //   // var how = $(this).attr('aria-expanded');
-          //   // $(this).show();
-          //   // if (how != false) {
-          //     // $('#mainNav').css('background', 'rgba(0, 0, 0, 0.5)');
-          //     // $('#smallscreen').css('display', 'block');
-          //   // }else{
-          //     // $('#mainNav').css('background', 'rgba(0, 0, 0, 0.0)');
-          //     // $('img.smallscreen').css('display', 'none');
-          //   // }
-          //
-          //   // alert('a');
-          //   $(this).toggle(function() {
-          //
-          //     $('#smallscreen').css('display','block');
-          //   }, function() {
-          //     /* Stuff to do every *even* time the element is clicked */
-          //     $('#smallscreen').css('display','none');
-          //   });
-          //
-          // });
-          // $("#menu_btn").toggle(
-          //   function(){$('#smallscreen').css('display','block');},
-          //   function(){$('#smallscreen').css('display','none');});
-
-        });
-      </script>
 
     <body id="page-top">
 
@@ -205,7 +176,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               <div class="container-fluid">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
                   <!-- <img src="img/logo1.png" style="max-height: 60px;" alt="" class="img-fluid"> -->
-                  <img src="img/logo3.png" style="max-height: 65px;" alt="" class="header_logo img-fluid"><img class="smallscreen img-fluid" id="smallscreen" src="img/head_footer.png" alt="" />
+                  <img src="img/logo3.png" style="max-height: 65px;" alt="" class="header_logo img-fluid"><img class="smallscreen img-fluid"  src="img/head_footer.png" alt="" />
                 </a>
                 <button id='menu_btn' class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                   選單
@@ -1150,83 +1121,108 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           }
         </style>
         <script type="text/javascript">
+        //萬事達卡
+        function sw(){
+          var card = "<div class='row'><div class='col-lg-6'><h2 style='color: white'>金卡</h2><img src='file/four/1萬事達卡/金卡.jpg' class='img-fluid'></div><div class='col-lg-6'><h2 style='color: white'>黑卡</h2><img src='file/four/1萬事達卡/黑卡.jpg' class='img-fluid'></div></div>";
+          swal({
+            html: card,
+            showCloseButton: false,
+            showCancelButton: false,
+            showConfirmButton: false,
+            focusConfirm: false,
+            confirmButtonText:
+            '<i class="fa fa-thumbs-up"></i> Great!',
+            confirmButtonAriaLabel: 'Thumbs up, great!',
+            cancelButtonText:
+            '<i class="fa fa-thumbs-down"></i>',
+            cancelButtonAriaLabel: 'Thumbs down',
+          })
+        }
+        //萬事達卡
 
-          function sw(){
-            var card = "<div class='row'><div class='col-lg-6'><h2 style='color: white'>金卡</h2><img src='file/four/1萬事達卡/金卡.jpg' class='img-fluid'></div><div class='col-lg-6'><h2 style='color: white'>黑卡</h2><img src='file/four/1萬事達卡/黑卡.jpg' class='img-fluid'></div></div>";
-            swal({
-              html: card,
-              showCloseButton: false,
-              showCancelButton: false,
-              showConfirmButton: false,
-              focusConfirm: false,
-              confirmButtonText:
-              '<i class="fa fa-thumbs-up"></i> Great!',
-              confirmButtonAriaLabel: 'Thumbs up, great!',
-              cancelButtonText:
-              '<i class="fa fa-thumbs-down"></i>',
-              cancelButtonAriaLabel: 'Thumbs down',
-              })
+        //火幣授權QR Code
+        function fire(){
+          var card = "<div class='row'><div class='col-lg-12'><img src='img/旺旺通授權.png' class='img-fluid'></div></div>";
+          swal({
+            html: card,
+            showCloseButton: false,
+            showCancelButton: false,
+            showConfirmButton: false,
+            focusConfirm: false,
+            confirmButtonText:
+            '<i class="fa fa-thumbs-up"></i> Great!',
+            confirmButtonAriaLabel: 'Thumbs up, great!',
+            cancelButtonText:
+            '<i class="fa fa-thumbs-down"></i>',
+            cancelButtonAriaLabel: 'Thumbs down',
+          });
+        }
+        //火幣授權QR Code
+
+
+        // 火幣註冊申請表
+        function Sw_Application(){
+          var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/火幣註冊Google_QR.jpg' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><h2 style='color:white;'>火幣註冊申請表</h2><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
+          swal({
+            html: card,
+            showCloseButton: false,
+            showCancelButton: false,
+            showConfirmButton: false,
+            focusConfirm: false,
+            confirmButtonText:
+            '<i class="fa fa-thumbs-up"></i> Great!',
+            confirmButtonAriaLabel: 'Thumbs up, great!',
+            cancelButtonText:
+            '<i class="fa fa-thumbs-down"></i>',
+            cancelButtonAriaLabel: 'Thumbs down',
+          });
+        }
+
+        // 聊天室
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+          var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+          s1.async=true;
+          s1.src='https://embed.tawk.to/5b16178510b99c7b36d4a0cb/default';
+          s1.charset='UTF-8';
+          s1.setAttribute('crossorigin','*');
+          s0.parentNode.insertBefore(s1,s0);
+        })();
+        // 聊天室
+
+        // swal({
+        //   // title: '<i>HTML</i> <u>example</u>',
+        //   // type: 'info',
+        //   html:
+        //   '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video.mp4" type="video/mp4"></video></div>',
+        //   showCloseButton: false,
+        //   showCancelButton: false,
+        //   showConfirmButton: false,
+        //   focusConfirm: false,
+        // });
+
+        // 縮小時選單使用
+        $(document).ready(function() {
+          $('#menu_btn').click(function(event) {
+            var how = $('#menu_btn').attr('aria-expanded');//用來偵測表單是開啟還是關閉
+            if (how == 'true') {
+              console.log(how);
+              $('#mainNav').css('background', 'rgba(0, 0, 0, 0.0)');
+              $('img.smallscreen').css('display', 'none');
+            }else if(how == 'false'){
+              console.log(how);
+              $('#mainNav').css('background', 'rgba(0, 0, 0, 0.5)');
+              $('.smallscreen').css('display', 'block');
             }
-
-            function fire(){
-              var card = "<div class='row'><div class='col-lg-12'><img src='img/旺旺通授權.png' class='img-fluid'></div></div>";
-              swal({
-                html: card,
-                showCloseButton: false,
-                showCancelButton: false,
-                showConfirmButton: false,
-                focusConfirm: false,
-                confirmButtonText:
-                '<i class="fa fa-thumbs-up"></i> Great!',
-                confirmButtonAriaLabel: 'Thumbs up, great!',
-                cancelButtonText:
-                '<i class="fa fa-thumbs-down"></i>',
-                cancelButtonAriaLabel: 'Thumbs down',
-              });
-              }
-
-              // 火幣註冊申請表
-              function Sw_Application(){
-                var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/火幣註冊Google_QR.jpg' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><h2 style='color:white;'>火幣註冊申請表</h2><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
-                swal({
-                  html: card,
-                  showCloseButton: false,
-                  showCancelButton: false,
-                  showConfirmButton: false,
-                  focusConfirm: false,
-                  confirmButtonText:
-                  '<i class="fa fa-thumbs-up"></i> Great!',
-                  confirmButtonAriaLabel: 'Thumbs up, great!',
-                  cancelButtonText:
-                  '<i class="fa fa-thumbs-down"></i>',
-                  cancelButtonAriaLabel: 'Thumbs down',
-                });
-              }
-
-              // 聊天室
-              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-              (function(){
-                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-                s1.async=true;
-                s1.src='https://embed.tawk.to/5b16178510b99c7b36d4a0cb/default';
-                s1.charset='UTF-8';
-                s1.setAttribute('crossorigin','*');
-                s0.parentNode.insertBefore(s1,s0);
-              })();
-              // 聊天室
-
-                swal({
-                  // title: '<i>HTML</i> <u>example</u>',
-                  // type: 'info',
-                  html:
-                  '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video.mp4" type="video/mp4"></video></div>',
-                  showCloseButton: false,
-                  showCancelButton: false,
-                  showConfirmButton: false,
-                  focusConfirm: false,
-                });
-
-        </script>
+          });
+          // 點擊link時使用
+          $('.nav-link').click(function(event) {
+            $('#mainNav').css('background', 'rgba(0, 0, 0, 0.0)');
+            $('img.smallscreen').css('display', 'none');
+          });
+        });
+        //縮小時選單使用
+      </script>
         <!-- <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
     </body>
