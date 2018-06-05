@@ -23,14 +23,14 @@ if (isset($_POST["name"]) && !empty($_POST['name']) &&
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'suyoungshen@gmail.com';                 // 寄信的信箱
-        $mail->Password = 'uufxqqdtzbxrmgvj';                           // 寄信信箱的密碼
+        $mail->Username = 'wanwanton958@gmail.com';                 // 寄信的信箱
+        $mail->Password = 'vhukjhtqppjreahc';                           // 寄信信箱的密碼
         $mail->SMTPSecure = 'ssl';                            // ssl = 465; tls = 587
         $mail->Port = 465;                                    // TCP port to connect to
 
         //Recipients
-        $mail->setFrom($email, '客戶');                     //由哪個信箱寄，客戶 = 寄件人姓名
-        $mail->addAddress('k90218104@gcloud.csu.edu.tw', 'Joe User');     // 收件者給誰, 收件者姓名
+        $mail->setFrom($email, '客戶-'.$name);                     //由哪個信箱寄，客戶 = 寄件人姓名
+        $mail->addAddress('wanwanton@wanwanton.com', '旺旺通形象網站');     // 收件者給誰, 收件者姓名
         // $mail->addAddress('ellen@example.com');               // Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');
         // $mail->addCC('cc@example.com');
