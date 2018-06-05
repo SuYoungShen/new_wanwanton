@@ -384,7 +384,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <div class="row mb-5">
                           <div class="col-md-12 text-center">
                             <div class="heading wow fadeInUp" data-wow-delay="0.3s">
-                              <!-- <h1>Latest News</h1> -->
+                              <h1>旺旺通相關新資訊</h1>
                               <div class="bord-bot"></div>
                             </div>
                           </div>
@@ -402,7 +402,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" ata-toggle="tab" aria-selected="true">最新消息</a>
                                           </li>
                                           <li class="nav-item">
-                                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">投資相關資訊</a>
                                           </li>
                                         </ul>
                                         <div class="tab-content tabs" id="myTabContent">
@@ -410,16 +410,26 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                             <table class='table '>
                                               <tbody>
                                                 <tr class="bg-warning">
-                                                  <td><a href="#">a</a></td>
+                                                  <td><a href="#">最新消息一</a></td>
                                                 </tr>
                                                 <tr class="bg-danger">
-                                                  <td><a href="#">b</a></td>
+                                                  <td><a href="#">最新消息二</a></td>
                                                 </tr>
                                               </tbody>
                                             </table>
                                           </div>
-                                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">456</div>
-
+                                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <table class='table '>
+                                              <tbody>
+                                                <tr>
+                                                  <td><a href="#">投資相關訊息一</a></td>
+                                                </tr>
+                                                <tr>
+                                                  <td><a href="#">投資相關訊息二</a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
@@ -552,16 +562,15 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                 <div class="service-icon">
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX68yTLL-IHaDUiHuK_TLDfPia5TY6Z-4kqK4CpirjExdWOPlgVQ" alt="" class="img-fluid">
                                 </div>
-                                <div class="service-content">
+                                <a href="file/four/Q&A外部人員.pdf" target="_blank">
+                                  <div class="service-content">
                                     <h3>Q & A</h3>
-                                    <a href="file/four/Q&A外部人員.pdf" target="_blank">Q & A 文件</a>
-                                    <!-- <p>
-                                        Hardware wallets offer better security than software wallets against scams or theft. In case you misplace your wallet, you can easily recover all your bitcoins on a new wallet.While some individuals store their coins in software wallets, some of wallets.
-                                    </p> -->
-                                </div>
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUoiOmvLaWGbKddQ8KlaFsb9PiPiXmh1GlrrMUsHjhkwmiuIXTcA" class="img-fluid" title="點擊此處可連至Q&A文件!" alt=""><br/>
+                                    Q & A 文件
+                                  </div>
+                                </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -685,9 +694,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                     <div class="card-body">
                                       <a href="file/four/1萬事達卡/台灣萬事達旺旺通辦事處金流簡報.pdf" target="_blank">萬事達旺旺通辦事處金流簡報</a> |
                                       <a href="file/four/1萬事達卡/ICP_HTL_presentation_2017-Introduction.pdf" target="_blank">萬事達卡簡介</a> |
-                                      <a href="file/four/1萬事達卡/process.pdf" target="_blank">會員入會申請流程</a> |
-                                      <a href="file/four/1萬事達卡/application.pdf" target="_blank">會員入會申請書</a> |
-                                      <a href="file/four/1萬事達卡/application-1.pdf" target="_blank">會員入會申請書(反)</a> |
+                                      <a href="file/four/1萬事達卡/hallmark-mastercard申請書範本.pdf" target="_blank">萬事達借記卡申請表(範本)</a> |
+                                      <a href="file/four/1萬事達卡/hallmark-mastercard申請書.pdf" target="_blank">萬事達借記卡申請表</a> |
                                       <a href="JavaScript:void(0);" onclick="sw();" target="_blank">卡片樣式</a>
                                       <!-- The dollar is legal tender and by law can be used to extinguish public or private debts. A creditor is required to accept legal tender for the settlement of a debt. At a minimum, the payment of taxes forces U.S. individuals to hold dollars. Arguably, for many, such a government endorsement is comforting and creates a strong underlying demand for the dollar. By contrast, a currency like Bitcoin that is linked to a complex computer program that many do not understand and that operates without accountability to any controlling entity could be an unattractive vehicle for holding wealth for many people. -->
                                     </div>
@@ -1044,16 +1052,14 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                         <h5>主選單</h5>
                           <a href="#page-top" class="js-scroll-trigger text-white">首頁</a><i class="fa fa-angle-right"></i>
                           <a href="#about" class="js-scroll-trigger text-white">關於旺旺通</a><i class="fa fa-angle-right"></i>
+                          <a href="#news" class="js-scroll-trigger text-white">相關新資訊</a><i class="fa fa-angle-right"></i>
                           <a href="#services" class="js-scroll-trigger text-white">服務項目</a><i class="fa fa-angle-right"></i>
                           <a href="#faq" class="js-scroll-trigger text-white">會員專區</a><i class="fa fa-angle-right"></i>
                           <a href="#team" class="js-scroll-trigger text-white">四大主流專區</a><i class="fa fa-angle-right"></i>
                           <a href="#contact" class="js-scroll-trigger text-white">聯絡我們</a><i class="fa fa-angle-right"></i>
 
-
                       <ul class="list-unstyled footer-menu">
-                        <!-- <li><i class="fa fa-map-marker fa-2x"></i><a href="https://www.google.com.tw/maps/place/801%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%BA%94%E7%A6%8F%E4%B8%89%E8%B7%AF61%E8%99%9F%E6%A8%93%E4%B9%8B%E4%B8%80/@22.6215786,120.2948242,17z/data=!3m1!4b1!4m5!3m4!1s0x346e047e04ae2a35:0xeb0469001f5e66ec!8m2!3d22.6215737!4d120.2970129?hl=zh-TW" class="js-scroll-trigger">高雄市前金區五福三路61號14樓之一</a></li>
-                        <li><i class="fa fa-envelope-o fa-2x"></i>wanwanton958@gmail.com</li>
-                        <li><i class="fa fa-phone fa-2x"></i>07-958-0017</li> -->
+                        
                       </ul>
                     </div>
                     <div class="col-md-4 col-sm-12 text-center">
