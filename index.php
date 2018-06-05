@@ -1,4 +1,4 @@
-huobi.png<!--
+<!--
 author: Boostraptheme
 author URL: https://boostraptheme.com
 License: Creative Commons Attribution 4.0 Unported
@@ -1162,7 +1162,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 s1.setAttribute('crossorigin','*');
                 s0.parentNode.insertBefore(s1,s0);
               })();
-              // 聊天室  
+              // 聊天室
 
                 swal({
                   // title: '<i>HTML</i> <u>example</u>',
