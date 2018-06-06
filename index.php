@@ -1195,16 +1195,18 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         })();
         // 聊天室
 
-        // swal({
-        //   // title: '<i>HTML</i> <u>example</u>',
-        //   // type: 'info',
-        //   html:
-        //   '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video.mp4" type="video/mp4"></video></div>',
-        //   showCloseButton: false,
-        //   showCancelButton: false,
-        //   showConfirmButton: false,
-        //   focusConfirm: false,
-        // });
+        //影片彈跳視窗
+        swal({
+          // title: '<i>HTML</i> <u>example</u>',
+          // type: 'info',
+          html:
+          '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video.mp4" type="video/mp4"></video></div>',
+          showCloseButton: false,
+          showCancelButton: false,
+          showConfirmButton: false,
+          focusConfirm: false,
+        });
+        //影片彈跳視窗
 
         // 縮小時選單使用
         $(document).ready(function() {
