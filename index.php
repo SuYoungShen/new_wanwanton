@@ -1053,13 +1053,13 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="col-md-3 col-sm-5 col-lg-12 text-center text-white">
 
                         <h5>主選單</h5>
-                        <p style='font-size:15px;'><a href="#page-top" class="js-scroll-trigger text-white">首頁</a><i class="fa fa-angle-right"></i>
-                          <a href="#about" class="js-scroll-trigger text-white">關於旺旺通</a><i class="fa fa-angle-right"></i>
-                          <a href="#news" class="js-scroll-trigger text-white">相關新資訊</a><i class="fa fa-angle-right"></i>
-                          <a href="#services" class="js-scroll-trigger text-white">服務項目</a><i class="fa fa-angle-right"></i>
-                          <a href="#faq" class="js-scroll-trigger text-white">會員專區</a><i class="fa fa-angle-right"></i>
-                          <a href="#team" class="js-scroll-trigger text-white">四大主流專區</a><i class="fa fa-angle-right"></i>
-                          <a href="#contact" class="js-scroll-trigger text-white">聯絡我們</a><i class="fa fa-angle-right"></i></p>
+                        <p style='font-size:15px;'><a href="#page-top" class="js-scroll-trigger text-white">首頁</a> <i class="fa fa-angle-right"></i>
+                          <a href="#about" class="js-scroll-trigger text-white">關於旺旺通</a> <i class="fa fa-angle-right"></i>
+                          <a href="#news" class="js-scroll-trigger text-white">相關新資訊</a> <i class="fa fa-angle-right"></i>
+                          <a href="#services" class="js-scroll-trigger text-white">服務項目</a> <i class="fa fa-angle-right"></i>
+                          <a href="#faq" class="js-scroll-trigger text-white">會員專區</a> <i class="fa fa-angle-right"></i>
+                          <a href="#team" class="js-scroll-trigger text-white">四大主流專區</a> <i class="fa fa-angle-right"></i>
+                          <a href="#contact" class="js-scroll-trigger text-white">聯絡我們</a></p>
 
                       <ul class="list-unstyled footer-menu">
 
@@ -1078,27 +1078,32 @@ License URL: https://creativecommons.org/licenses/by/4.0/
               <div id="footer-bottom">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-12 text-white text-center" style="font-size:14px;">
-                      | <i class="fa fa-map-marker fa-2x"></i>：<a href="https://www.google.com.tw/maps/place/801%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%BA%94%E7%A6%8F%E4%B8%89%E8%B7%AF61%E8%99%9F%E6%A8%93%E4%B9%8B%E4%B8%80/@22.6215786,120.2948242,17z/data=!3m1!4b1!4m5!3m4!1s0x346e047e04ae2a35:0xeb0469001f5e66ec!8m2!3d22.6215737!4d120.2970129?hl=zh-TW" class="js-scroll-trigger" target="_blank">高雄市前金區五福三路61號14樓之一</a> |
+                    <div class="col-lg-12 text-warning text-center" style="font-size: 14px;">
+                      | <i class="fa fa-map-marker fa-2x"></i>：<a href="https://www.google.com.tw/maps/place/801%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%BA%94%E7%A6%8F%E4%B8%89%E8%B7%AF61%E8%99%9F%E6%A8%93%E4%B9%8B%E4%B8%80/@22.6215786,120.2948242,17z/data=!3m1!4b1!4m5!3m4!1s0x346e047e04ae2a35:0xeb0469001f5e66ec!8m2!3d22.6215737!4d120.2970129?hl=zh-TW" class="js-scroll-trigger text-warning" target="_blank">高雄市前金區五福三路61號14樓之一</a> |
                       <i class="fa fa-envelope-o fa-2x"></i>：wanwanton958@gmail.com |
                       <i class="fa fa-phone fa-2x"></i>：07-958-0017 |
                       <i class="fa fa-fax fa-2x"></i>：07-958-0917 |
                     </div>
 
                     <div id="footer-copyrights" class="col-lg-12 text-right">
-                        <p>Copyright &copy; 2018 Wanwanton International Co.,Ltd. . All Rights Reserved. | 旺旺通國際有限公司版權所有</p>
+                        <p class="text-white">Copyright &copy; 2018 Wanwanton International Co.,Ltd. . All Rights Reserved. | 旺旺通國際有限公司版權所有</p>
                     </div>
 
                   </div>
                 </div>
               </div>
 
+              <script type="text/javascript">
+                // $('.fa fa-envelope-o fa-2x').after().css('color', 'yellow');
+              </script>
               <a href="#page-top" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top  js-scroll-trigger hidden-sm hidden-xs" title="home" role="button">
                 <i class="fa fa-angle-double-up"></i>
               </a>
 
             </footer>
-
+            <script type="text/javascript">
+              $('.fa fa-envelope-o fa-2x').after(document.createTextNode("Hello"));
+            </script>
 
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -1206,17 +1211,19 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           $('#menu_btn').click(function(event) {
             var how = $('#menu_btn').attr('aria-expanded');//用來偵測表單是開啟還是關閉
             if (how == 'true') {
-              console.log(how);
+              $("img.header_logo").css('display', 'block');
               $('#mainNav').css('background', 'rgba(0, 0, 0, 0.0)');
               $('img.smallscreen').css('display', 'none');
             }else if(how == 'false'){
-              console.log(how);
+              $("img.header_logo").css('display', 'none');
               $('#mainNav').css('background', 'rgba(0, 0, 0, 0.5)');
               $('.smallscreen').css('display', 'block');
+              $('.smallscreen').css('max-height', '65px');
             }
           });
           // 點擊link時使用
           $('.nav-link').click(function(event) {
+            $("img.header_logo").css('display', 'none');
             $('#mainNav').css('background', 'rgba(0, 0, 0, 0.0)');
             $('img.smallscreen').css('display', 'none');
           });
