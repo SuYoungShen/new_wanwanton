@@ -165,6 +165,13 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         }
         /* Logo */
 
+        /* mainNav css */
+        #mainNav .navbar-nav .nav-item .nav-link{
+          font-size: 100%;
+          font-weight: bold;
+        }
+        /* mainNav css */
+
       </style>
 
     <body id="page-top">
