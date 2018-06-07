@@ -167,7 +167,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
         /* mainNav css */
         #mainNav .navbar-nav .nav-item .nav-link{
-          font-size: 100%;
+          font-size: 90%;
           font-weight: bold;
         }
         /* mainNav css */
