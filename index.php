@@ -1166,7 +1166,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
         // 火幣註冊申請表
         function Sw_Application(){
-          var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/火幣註冊Google_QR.jpg' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><h2 style='color:white;'>火幣註冊申請表</h2><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
+          var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/Google_QR.jpg' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><h2 style='color:white;'>火幣註冊申請表</h2><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
           swal({
             html: card,
             showCloseButton: false,
