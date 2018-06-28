@@ -164,7 +164,9 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           }
         }
         /* Logo */
-
+        .about .about-box-sec .about-box{
+          padding: 30px 30px 30px 30px;
+        }
       </style>
 
     <body id="page-top">
@@ -273,42 +275,57 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="row about-box-sec">
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="0.9s">
-                                <div class="about-icon">
+                                <!-- <div class="about-icon">
                                     <img src="img/coin/huobi.png" alt="" class="img-fluid">
-                                </div>
+                                </div> -->
                                 <div class="about-Content">
                                     <h3 class="title">新興消費支付模式崛起</h3>
-                                    <p class="description">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                      <video loop class="embed-responsive-item" controls>
+                                        <source src="file/video/model.mp4" type="video/mp4">
+                                      </video>
+                                    </div>
+                                    <!-- <p class="description">
                                       在消費者逐漸改變電子商品支付消費的習慣開始，網路通路正以燎原的速度徹底翻轉了各企業的銷售生態，企業主與消費者的溝通模式與以往大不相同，不禁讓人思考，如何延續實體店舖的銷售優勢，直接打入電子商務領域，旺旺通結合第三方支付及數字貨幣支付系通平台，在延續企業優質的良好形象達到無縫接軌。
-                                    </p>
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="1.2s">
-                                <div class="about-icon">
+                                <!-- <div class="about-icon">
                                     <img src="img/coin/huobi.png" alt="" class="img-fluid">
-                                </div>
+                                </div> -->
                                 <div class="about-Content">
                                     <h3 class="title">我們的使命</h3>
-                                    <p class="description">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                      <video loop class="embed-responsive-item" controls>
+                                        <source src="file/video/mission.mp4" type="video/mp4">
+                                      </video>
+                                    </div>
+                                    <!-- <p class="description">
                                       旺旺通國際有限公司致力於推動企業銷售電商化，因應電子商務席捲全球的世界浪潮，兩岸三地的電商人才優勢，企圖以台灣為中心，將台灣企業優質的商品與服務，透過網路的速度與力量，結合公司四大主要金流(聯名卡、EDC刷卡機、M數位金融科技、數字貨幣)，像狂風一般席捲擴散到全世界每個角落，希望讓世界感受到台灣企業的金融市場金流導向，結合專業度與創新視角。
-                                    </p>
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="1.5s">
-                                <div class="about-icon">
+                                <!-- <div class="about-icon">
                                     <img src="img/coin/huobi.png" alt="" class="img-fluid">
-                                </div>
+                                </div> -->
                                 <div class="about-Content">
-                                    <h3 class="title">我們的優勢</h3>
-                                    <p class="description">
+                                  <h3 class="title">我們的優勢</h3>
+                                  <div class="embed-responsive embed-responsive-16by9">
+                                    <video loop class="embed-responsive-item" controls><!-- autoplay=加入此屬性，影片會自動播放 -->
+                                      <source src="file/video/advantage.mp4" type="video/mp4">
+                                      </video>
+                                    </div>
+                                    <!-- <p class="description">
                                       金流服務的資金安全性永遠是第一要務，旺旺通國際有限公司結合PCIDSS產業資料安全標準，繼而針對安全管理、政策、程序與方式、網路配置與軟體設計等多方需求，所訂定之資料安全標準。旺旺通國際有限公司結合四大主要金流(聯名卡、EDC刷卡機、M數位金融科技、數字貨幣)，進而增加更多元的支付方式，提供消費著更多支付方式選擇，提供台灣實體／網路商店、服務業、非營利事業…等全方位金流整合平台。
-                                    </p>
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
@@ -1146,7 +1163,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
         //火幣授權QR Code
         function fire(){
-          var card = "<div class='row'><div class='col-lg-12'><img src='img/旺旺通授權.png' class='img-fluid'></div></div>";
+          var card = "<div class='row'><div class='col-lg-12'><h2 style='color:white'>火幣註冊網</h2></div><div class='col-lg-12'><img src='img/旺旺通授權.png' class='img-fluid'></div></div>";
           swal({
             html: card,
             showCloseButton: false,
@@ -1199,7 +1216,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           // title: '<i>HTML</i> <u>example</u>',
           // type: 'info',
           html:
-          '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video.mp4" type="video/mp4"></video></div>',
+          '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video/video.mp4" type="video/mp4"></video></div>',
           showCloseButton: false,
           showCancelButton: false,
           showConfirmButton: false,
