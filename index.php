@@ -164,14 +164,9 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           }
         }
         /* Logo */
-
-        /* mainNav css */
-        #mainNav .navbar-nav .nav-item .nav-link{
-          font-size: 90%;
-          font-weight: bold;
+        .about .about-box-sec .about-box{
+          padding: 30px 30px 30px 30px;
         }
-        /* mainNav css */
-
       </style>
 
     <body id="page-top">
@@ -271,8 +266,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                             <div class="about-cont">
                                 <h3>關於我們</h3>
                                 <div class="bord"></div>
-                                <p>旺旺通全球通是聯盟電商培訓平臺，其中，旺旺通互聯網，能為消費者省錢、為推廣者賺錢為商家以及平臺精准引流！因為消費者購買的產品都是工廠以廠價推廣精准引流促銷商品，所以平臺對消費者既有強大的黏性，推廣者無須囤貨，無須投資，可以獲得高額推廣報酬，還能無風險組建有效把手中庫存變現，並有效協助微商精准引流，說明微商擴大產品線，滿足更多消費者，平臺彙聚了各大品牌微商大咖，突破品牌產生更多乾貨交流。</p>
-                                <p>是全新無風險聯盟電商創業平臺。</p>
+                                <p>旺旺通國際有限公司全球通是聯盟電商培訓平台，其中，旺旺通國際有限公司互聯網，能為消費者省錢、為推廣者賺錢為商家以及平台精准引流！因為消費者購買的產品都是工廠以廠價推廣精准引流促銷商品，所以平台對消費者既有強大的黏性，推廣者無須囤貨，無須投資，可以獲得高額推廣報酬，還能無風險組建有效把手中庫存變現，並有效協助微商精准引流，說明微商擴大產品線，滿足更多消費者，平臺彙聚了各大品牌微商大咖，突破品牌產生更多乾貨交流。是全新無風險聯盟電商創業平台，結合旺旺通國際有限公司四大主要金流工具，帶動更多元化的經濟效益。</p>
                                 <!-- <a href="#"><button class="btn btn-general btn-white">Contact Now</button></a> -->
                             </div>
                         </div>
@@ -281,42 +275,57 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="row about-box-sec">
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="0.9s">
-                                <div class="about-icon">
+                                <!-- <div class="about-icon">
                                     <img src="img/coin/huobi.png" alt="" class="img-fluid">
-                                </div>
+                                </div> -->
                                 <div class="about-Content">
-                                    <h3 class="title">公司未來發展</h3>
-                                    <p class="description">
-                                         Bitcoin has emerged as a fascinating phenomenon in Financial markets. Without any central issuing the currency.
-                                    </p>
+                                    <h3 class="title">新興消費支付模式崛起</h3>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                      <video loop class="embed-responsive-item" controls>
+                                        <source src="file/video/model.mp4" type="video/mp4">
+                                      </video>
+                                    </div>
+                                    <!-- <p class="description">
+                                      在消費者逐漸改變電子商品支付消費的習慣開始，網路通路正以燎原的速度徹底翻轉了各企業的銷售生態，企業主與消費者的溝通模式與以往大不相同，不禁讓人思考，如何延續實體店舖的銷售優勢，直接打入電子商務領域，旺旺通結合第三方支付及數字貨幣支付系通平台，在延續企業優質的良好形象達到無縫接軌。
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="1.2s">
-                                <div class="about-icon">
+                                <!-- <div class="about-icon">
                                     <img src="img/coin/huobi.png" alt="" class="img-fluid">
-                                </div>
+                                </div> -->
                                 <div class="about-Content">
-                                    <h3 class="title">公司背景</h3>
-                                    <p class="description">
-                                        Bitcoin has been associated with controversy ever since its popularity, accompanied by increased public.
-                                    </p>
+                                    <h3 class="title">我們的使命</h3>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                      <video loop class="embed-responsive-item" controls>
+                                        <source src="file/video/mission.mp4" type="video/mp4">
+                                      </video>
+                                    </div>
+                                    <!-- <p class="description">
+                                      旺旺通國際有限公司致力於推動企業銷售電商化，因應電子商務席捲全球的世界浪潮，兩岸三地的電商人才優勢，企圖以台灣為中心，將台灣企業優質的商品與服務，透過網路的速度與力量，結合公司四大主要金流(聯名卡、EDC刷卡機、M數位金融科技、數字貨幣)，像狂風一般席捲擴散到全世界每個角落，希望讓世界感受到台灣企業的金融市場金流導向，結合專業度與創新視角。
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6">
                             <div class="about-box wow fadeInUp" data-wow-delay="1.5s">
-                                <div class="about-icon">
+                                <!-- <div class="about-icon">
                                     <img src="img/coin/huobi.png" alt="" class="img-fluid">
-                                </div>
+                                </div> -->
                                 <div class="about-Content">
-                                    <h3 class="title">經營旺旺通優勢是什麼？</h3>
-                                    <p class="description">
-                                      Bitcoin has been associated with controversy ever since its popularity, accompanied by increased public.
-                                    </p>
+                                  <h3 class="title">我們的優勢</h3>
+                                  <div class="embed-responsive embed-responsive-16by9">
+                                    <video loop class="embed-responsive-item" controls><!-- autoplay=加入此屬性，影片會自動播放 -->
+                                      <source src="file/video/advantage.mp4" type="video/mp4">
+                                      </video>
+                                    </div>
+                                    <!-- <p class="description">
+                                      金流服務的資金安全性永遠是第一要務，旺旺通國際有限公司結合PCIDSS產業資料安全標準，繼而針對安全管理、政策、程序與方式、網路配置與軟體設計等多方需求，所訂定之資料安全標準。旺旺通國際有限公司結合四大主要金流(聯名卡、EDC刷卡機、M數位金融科技、數字貨幣)，進而增加更多元的支付方式，提供消費著更多支付方式選擇，提供台灣實體／網路商店、服務業、非營利事業…等全方位金流整合平台。
+                                    </p> -->
                                 </div>
                             </div>
                         </div>
@@ -1154,7 +1163,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
         //火幣授權QR Code
         function fire(){
-          var card = "<div class='row'><div class='col-lg-12'><img src='img/旺旺通授權.png' class='img-fluid'></div></div>";
+          var card = "<div class='row'><div class='col-lg-12'><h2 style='color:white'>火幣註冊網</h2></div><div class='col-lg-12'><img src='img/旺旺通授權.png' class='img-fluid'></div></div>";
           swal({
             html: card,
             showCloseButton: false,
@@ -1174,7 +1183,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
         // 火幣註冊申請表
         function Sw_Application(){
-          var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/火幣註冊Google_QR.jpg' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><h2 style='color:white;'>火幣註冊申請表</h2><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
+          var card = "<div class='row'><div class='col-lg-6'><h2 style='color:white'>火幣註冊申請表(線上表單)</h2><a href='https://docs.google.com/forms/d/e/1FAIpQLSeCOZmcy6U7XR3A6x3Ks5qC-MoqQub4qrOOBG5ivbuzxRvoxQ/viewform' title='點擊此處，可連至線上表單' target='_blank'><img src='file/four/火幣/Google_QR.jpg' class='img-fluid'></a></div><div class='col-lg-6'><a href='file/four/火幣/Sw_Application.pdf' target='_blank'><h2 style='color:white;'>火幣註冊申請表</h2><img src='file/four/火幣/Sw_Application.jpg' title='點擊此處，可連至申請表下載區' class='img-fluid'></a></div></div>";
           swal({
             html: card,
             showCloseButton: false,
@@ -1208,7 +1217,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           // title: '<i>HTML</i> <u>example</u>',
           // type: 'info',
           html:
-          '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video.mp4" type="video/mp4"></video></div>',
+          '<div align="center" class="embed-responsive embed-responsive-16by9"><video autoplay loop class="embed-responsive-item" controls><source src="file/video/video.mp4" type="video/mp4"></video></div>',
           showCloseButton: false,
           showCancelButton: false,
           showConfirmButton: false,
