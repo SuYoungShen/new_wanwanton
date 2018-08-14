@@ -1195,11 +1195,12 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         (function(){
           var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
           s1.async=true;
-          s1.src='https://embed.tawk.to/5b16178510b99c7b36d4a0cb/default';
+          s1.src='https://embed.tawk.to/5b72f592f31d0f771d83c902/default';
           s1.charset='UTF-8';
           s1.setAttribute('crossorigin','*');
           s0.parentNode.insertBefore(s1,s0);
         })();
+
         // 聊天室
 
         //影片彈跳視窗
