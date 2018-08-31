@@ -23,14 +23,14 @@ if (isset($_POST["name"]) && !empty($_POST['name']) &&
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'wanwanton958@gmail.com';                 // 寄信的信箱
-        $mail->Password = 'vhukjhtqppjreahc';                           // 寄信信箱的密碼
+        $mail->Username = 'suyoungshen@gmail.com';                 // 寄信的信箱
+        $mail->Password = 'uufxqqdtzbxrmgvj';                           // 寄信信箱的密碼
         $mail->SMTPSecure = 'ssl';                            // ssl = 465; tls = 587
         $mail->Port = 465;                                    // TCP port to connect to
 
         //Recipients
         $mail->setFrom($email, '客戶-'.$name);                     //由哪個信箱寄，客戶 = 寄件人姓名
-        $mail->addAddress('wanwanton@wanwanton.com', '旺旺通形象網站');     // 收件者給誰, 收件者姓名
+        $mail->addAddress('k90218104@gcloud.csu.edu.tw', '旺旺通形象網站');     // 收件者給誰, 收件者姓名
         // $mail->addAddress('ellen@example.com');               // Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');
         // $mail->addCC('cc@example.com');
@@ -43,7 +43,7 @@ if (isset($_POST["name"]) && !empty($_POST['name']) &&
 
         //Content
         $mail->isHTML(true);                                    // Set email format to HTML
-        $mail->Subject = '透過形象網站來信';                // 信箱裡的Title
+        $mail->Subject = '透過旺旺通形象網站來信';                // 信箱裡的Title
         $mail->Body    =
         '發問者姓名：'.$name.
         '<br/>發問者信箱：'.$email.
